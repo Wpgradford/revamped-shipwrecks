@@ -3,16 +3,13 @@
     "biomes": "#minecraft:has_structure/shipwreck_beached",
     "adapt_noise": false,
 	"spawn_overrides": {},
-    "start_pool": "revamped_shipwrecks:shipwreck_all",
-    "size": 7,
+    "start_pool": "revamped_shipwrecks:shipwreck/shipwreck_beached",
+    "size": 2,
     "step": "surface_structures",
     "start_height": {
-      "type": "minecraft:uniform",
-      "min_inclusive": {
-        "absolute": -10
-      },
-      "max_inclusive": {
-        "absolute": -4
+      "type": "minecraft:constant",
+        "value": {
+        "absolute": 0
       }
     },
     "project_start_to_heightmap": "OCEAN_FLOOR_WG",
